@@ -1,0 +1,26 @@
+# these are mostly referenced in head.html
+title: "UnConference CBR"
+description: "formerly barcampcanberra"
+hero: >
+  A Canberra-born **open web** 'unconference': a con for the *users and
+  creators* of an open Internet whose schedule and tracks are filled,
+  on-the-day, by its participants.
+
+# unorganisers list populates html head author meta tag
+unorganisers: "klepas, maxious, gavintapp, etc."
+
+# twitter:
+
+baseurl: "" # the subpath of your site, e.g. /blog/
+# url: "http://localhost:4000"
+url: ""
+
+# the markdown processor we want to use
+markdown: kramdown
+
+# things that should be excluded from a jekyll build
+exclude: [README.md, Rakefile, .gitignore, .Gemfile, .Gemfile.lock]
+paginate: 10
+
+# post permalink URL structure
+permalink: /:title

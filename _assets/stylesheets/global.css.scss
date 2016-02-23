@@ -1,0 +1,44 @@
+@import "bourbon";
+@import "base/grid-settings";
+@import "neat";
+@import "base/base";
+@import "font-awesome";
+
+///////////////////////////////////////////////////////////////////////////////////
+$large-screen: em(860) !default;
+$medium-screen: em(769) !default;
+$tiny-screen: em(320);
+
+$dark-gray: #333 !default;
+$light-gray: #d8d8d8;
+
+$em-base: 16px;
+$fontface-sans: "Source Sans Pro", sans-serif;
+$fontface-serif: "Merriweather", serif;
+$fontface-monospace: "Source Code Pro", monospace;
+$fontface-print: Georgia, Times, "Times New Roman", Serif;
+$base-background-color: white !default;
+$base-font-color: $dark-gray !default;
+
+$light-gray: #DDD !default;
+
+$base-border-color: #ccc;
+$base-border-radius: 3px !default;
+$base-accent-color: #477DCA !default;
+
+body {
+  @include outer-container;
+  text-align: left;
+}
+
+main, section {
+  margin: 8px;
+  margin-top: 3em;
+  @include media(min-width $tiny-screen max-width $large-screen, 12) {
+  }
+}
+
+@import "typography";
+@import "navigation";
+@import "footer";
+@import "header.scss";

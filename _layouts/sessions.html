@@ -1,0 +1,24 @@
+---
+layout: base
+---
+
+<header>
+  {% include nav.html %}
+  {% include header-page.html %}
+</header>
+
+<main id="session-list">
+
+  {{ content }}
+
+  <h1>All sessions</h1>
+  {% for post in site.posts %}
+  <article class="post">
+    <h1><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h1>
+
+    {{ post.excerpt }}
+
+    <a href="{{ post.url }}" title="{{ post.title }}">Read More &raquo;</a>
+  </article>
+  {% endfor %}
+</main>

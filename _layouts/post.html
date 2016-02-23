@@ -1,0 +1,23 @@
+---
+layout: base
+---
+
+<header>
+  {% include nav.html %}
+</header>
+
+<main id="session">
+  <article class="post">
+    <h1><a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></h1>
+    {{ if page.abstract }}
+    <p>{{ page.abstract }}</p>
+    {{ endif }}
+    {{ if page.date }}
+    <p class="post-meta"><time datetime="{{ page.date | date: "%Y-%m-%d"}}">{{ page.date | date_to_long_string }}</time></p>
+    {{ endif }}
+    <hr>
+
+    {{ content }}
+
+  </article>
+</main>
