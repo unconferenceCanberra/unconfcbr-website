@@ -30,23 +30,6 @@
 
   // Mobile view
 
-  .mobile-logo {
-    display: inline;
-    float: left;
-    max-height: $centered-navigation-height;
-    padding-left: $centered-navigation-padding;
-
-    img {
-      max-height: $centered-navigation-height;
-      opacity: .6;
-      padding: .8em 0;
-    }
-
-    @include media($horizontal-bar-mode) {
-      display: none;
-    }
-  }
-
   .centered-navigation-mobile-menu {
     color: $centered-navigation-color;
     display: block;
@@ -86,6 +69,11 @@
     width: 100%;
     z-index: 99999;
 
+    a.home-icon {
+      font-size: 1.4em;
+      margin-right: 0.4em;
+    }
+
     &.show {
       display: block;
     }
@@ -113,6 +101,7 @@
     text-align: right;
     width: 100%;
     z-index: 9999;
+    padding-bottom: 2px;
 
     a {
       color: $centered-navigation-color;
@@ -274,7 +263,7 @@
 
 nav#page-nav {
   $base-spacing: 1.5em !default;
-  $action-color: #477DCA !default;
+  $action-color: #204a87 !default;
   $medium-screen: em(640) !default;
   $large-screen: em(860) !default;
   $nav-background: desaturate(darken($action-color, 20%), 30%);
@@ -282,11 +271,15 @@ nav#page-nav {
   $nav-link-color: transparentize($nav-color, 0.6);
 
   background: $nav-background;
+  border: 1px solid $nav-background;
+  border-radius: $base-border-radius;
   padding: $base-spacing;
   width: 100%;
   display: inline-block;
 
-  .nav-logo {
+  .nav-home-icon {
+    font-size: 1.2em;
+    color: #ddd;
     margin-right: 1em;
     margin-bottom: 1em;
 
@@ -294,10 +287,6 @@ nav#page-nav {
       float: left;
       margin-bottom: 0;
     }
-  }
-
-  .nav-logo img {
-    height: 1.6em;
   }
 
   ul {

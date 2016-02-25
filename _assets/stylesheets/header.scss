@@ -1,4 +1,4 @@
-// Stylng for:
+// Styling for:
 //  - header-home include
 //  - header include
 
@@ -11,6 +11,7 @@ div.homepage-hero {
   $large-screen: em(860) !default;
   $hero-background-top: #7F99BE;
   $hero-background-bottom: #20392B;
+  $hero-text-shadow: 1px 1px 1px rgba(0,0,0,.5);
   $hero-color: white;
   $gradient-angle: 10deg;
   $hero-image: 'https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains.png';
@@ -20,7 +21,12 @@ div.homepage-hero {
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 3em;
+  margin-top: 1em;
+  padding-top: 1em;
+  padding-bottom: 2em;
+  border: 1px solid #999;
+  border-top-left-radius: $base-border-radius;
+  border-top-right-radius: $base-border-radius;
 
   .hero-logo img {
     height: 4em;
@@ -33,6 +39,7 @@ div.homepage-hero {
     margin: auto;
     padding: 2.5em;
     text-align: center;
+    text-shadow: $hero-text-shadow;
 
     .hero-copy {
       text-align: center;
@@ -62,15 +69,24 @@ div.homepage-hero {
       }
 
       p {
-        font-size: 1.8em;
         color: $hero-color;
-        line-height: 1.4em;
-        margin: 0 auto 1em auto;
+        line-height: 1.7em;
+        margin: 2em auto 1em auto;
         font-family: $fontface-serif;
+        text-shadow: 1px 1px 1px rgba(0,0,0,.5);
 
         @include media($large-screen) {
-          font-size: 1.4em;
+          font-size: 2em;
+          max-width: 55%;
+        }
+
+        @include media(medium-screen) {
+          font-size: 1.6em;
           max-width: 50%;
+        }
+
+        @include media($tiny-screen) {
+          font-size: 1.2em;
         }
       }
     }
