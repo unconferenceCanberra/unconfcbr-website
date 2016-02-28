@@ -4,21 +4,13 @@ layout: base
 
 <header>
   {% include nav.html %}
-  {% include header-page.html %}
+  {% include hero-page.html %}
 </header>
 
 <main id="session-list">
 
   {{ content }}
 
-  <h1>All sessions</h1>
-  {% for post in site.posts %}
-  <article class="post">
-    <h1><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h1>
-
-    {{ post.excerpt }}
-
-    <a href="{{ post.url }}" title="{{ post.title }}">Read More &raquo;</a>
-  </article>
-  {% endfor %}
+  <h2>2014</h2>
+  <iframe width='560' height='315' src="https://www.youtube.com/embed/videoseries?list=PLRvXbUtKWLiALD9MftfecWep04SjsNhS9" frameborder="0" allowfullscreen></iframe>
 </main>

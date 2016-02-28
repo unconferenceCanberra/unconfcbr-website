@@ -43,3 +43,8 @@ main, section {
 @import "header.scss";
 @import "footer";
 @import "map";
+
+// temp styling for footer nav items that have missing pages/views
+li a.missing {
+  text-decoration: line-through;
+}
