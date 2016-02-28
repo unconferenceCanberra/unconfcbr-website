@@ -25,7 +25,7 @@ url: ""
 markdown: kramdown # the preferred markdown processor
 
 # things that should be excluded from a jekyll build
-exclude: [README.md, Rakefile, .gitignore, Gemfile, Gemfile.lock]
+exclude: [README.md, Rakefile, .gitignore, Gemfile, Gemfile.lock, vendor]
 
 # post permalink URL structure
 permalink: /:title
