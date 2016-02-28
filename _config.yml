@@ -1,4 +1,4 @@
-# these are mostly referenced in head.html
+# These are mostly referenced in head.html
 title: "un:Conference Canberra"
 description: "formerly BarCampCanberra"
 hero: >
@@ -6,17 +6,23 @@ hero: >
   creators* of an open Internet whose schedule and sessions are filled,
   on-the-day, by its participants.
 
-# unorganisers list populates html head author meta tag
+# Unorganisers list populates html head author meta tag and p in footer include
+# - consider moving this into _data?
 unorganisers: "klepas, maxious, gavintapp, etc."
 
-# twitter:
+# Main contact email given for the site
+email: foo@bar.com
 
+# Social media info, linked in the footer
+youtube: barcampcanberra
+twitter: UnconferenceCBR
+facebook: UnConferenceCanberra
+
+# The rest here are Jekyll-specific configs:
 baseurl: "" # the subpath of your site, e.g. /blog/
-# url: "http://localhost:4000"
 url: ""
 
-# the markdown processor we want to use
-markdown: kramdown
+markdown: kramdown # the preferred markdown processor
 
 # things that should be excluded from a jekyll build
 exclude: [README.md, Rakefile, .gitignore, Gemfile, Gemfile.lock]
