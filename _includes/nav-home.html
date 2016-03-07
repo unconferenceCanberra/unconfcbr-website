@@ -4,7 +4,9 @@
     <nav role="navigation">
       <ul id="js-centered-navigation-menu" class="centered-navigation-menu show">
         <li class="nav-link"><a href="/expectations">What to expect?</a></li>
-        <li class="nav-link"><a href="https://www.eventbrite.com.au/e/unconference-canberra-2016-registration-22076928688">Participate!</a></li>
+        {% if site.eventbrite %}
+        <li class="nav-link"><a href="{{ site.eventbrite }}">Participate!</a></li>
+        {% endif %}
         <li class="nav-link"><a href="/sessions">Past Sessions</a></li>
       </ul>
     </nav>

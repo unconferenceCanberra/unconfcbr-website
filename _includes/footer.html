@@ -4,7 +4,9 @@
     <ul>
       <li><h3>Content</h3></li>
       <li><a class="missing" href="/expectations">What to expect?</a></li>
-      <li><a href="https://www.eventbrite.com.au/e/unconference-canberra-2016-registration-22076928688">Participate!</a></li>
+      {% if site.eventbrite %}
+      <li><a href="{{ site.eventbrite }}">Participate!</a></li>
+      {% endif %}
       <li><a href="/sessions">Past Sessions</a></li>
     </ul>
     <ul>

@@ -8,6 +8,7 @@ hero: >
 
 event-date: "Saturday, 9 April 2016"
 event-time: "09:30–16:00"
+eventbrite: "https://www.eventbrite.com.au/e/unconference-canberra-2016-registration-22076928688"
 
 # Unorganisers list populates html head author meta tag and p in footer include
 # - consider moving this into _data?
