@@ -4,8 +4,15 @@
 " alt="Logo Image"></a>
 		<div class="hero-copy">
 			<h1>{{ site.title }}</h1>
-			<h2>[{{ site.description }}]</h2>
-      <p>{{ site.hero | markdownify }}</p>
+			<h2>[{{ site.tagline }}]</h2>
+      {{ site.hero | markdownify }}
+			{% if site.event-date %}
+				<span class="date">{{ site.event-date }}</span>
+			{% endif %}
+			{% if site.event-date %}
+				<br>
+				<span class="time">{{ site.event-time }}</span>
+			{% endif %}
 		</div>
 	</div>
 </div>

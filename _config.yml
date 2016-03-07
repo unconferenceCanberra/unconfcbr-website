@@ -1,10 +1,13 @@
 # These are mostly referenced in head.html
 title: "un:Conference Canberra"
-description: "formerly BarCampCanberra"
+tagline: "formerly BarCampCanberra"
 hero: >
   A Canberra-born **open web** 'unconference': a con for the *users and
   creators* of an open Internet whose schedule and sessions are filled,
   on-the-day, by its participants.
+
+event-date: "Saturday, 9 April 2016"
+event-time: "09:30–16:00"
 
 # Unorganisers list populates html head author meta tag and p in footer include
 # - consider moving this into _data?

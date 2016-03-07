@@ -89,6 +89,12 @@ div.homepage-hero {
           font-size: 1.2em;
         }
       }
+
+      span.date, span.time {
+        color: $hero-color;
+        font-size: 1.25em;
+        font-family: $fontface-sans;
+      }
     }
   }
 }
