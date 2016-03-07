@@ -13,10 +13,10 @@ $dark-gray: #333 !default;
 $light-gray: #d8d8d8;
 
 $em-base: 16px;
-$fontface-sans: "Source Sans Pro", sans-serif;
-$fontface-serif: "Merriweather", serif;
-$fontface-monospace: "Source Code Pro", monospace;
-$fontface-print: Georgia, Times, "Times New Roman", Serif;
+$fontface-sans: "Source Sans Pro", "DejaVu Sans", sans-serif;
+$fontface-serif: "Merriweather", Georgia, "DejaVu Serif", serif;
+$fontface-monospace: "Source Code Pro", "DejaVu Sans Mono", monospace;
+$fontface-print: Georgia, Times, "Times New Roman", serif;
 $base-background-color: white !default;
 $base-font-color: $dark-gray !default;
 
@@ -43,6 +43,7 @@ main, section {
 @import "header.scss";
 @import "footer";
 @import "map";
+@import "sessions";
 
 // temp styling for footer nav items that have missing pages/views
 li a.missing {

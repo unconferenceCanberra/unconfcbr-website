@@ -1,0 +1,39 @@
+main#session-list {
+  margin-bottom: 4em;
+
+  @include media($large-screen) {
+    @include span-columns(8);
+    @include shift(2);
+  }
+  @include media($medium-screen) {
+    @include span-columns(10);
+    @include shift(1);
+  }
+
+  div.page-introduction {
+    font-family: $fontface-serif;
+    margin-bottom: 2em;
+  }
+
+  div.event {
+    margin-bottom: 3em;
+
+    div.youtube-embed {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+      max-width: 100%;
+
+      iframe {
+        padding: 6px;
+        background-color: #ddd;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}

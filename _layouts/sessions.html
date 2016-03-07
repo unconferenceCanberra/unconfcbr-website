@@ -4,13 +4,32 @@ layout: base
 
 <header>
   {% include nav.html %}
-  {% include hero-page.html %}
 </header>
 
 <main id="session-list">
+  <div class="page-introduction">
+    <h1><a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a></h1>
 
-  {{ content }}
+    {{ content }}
+  </div>
 
-  <h2>2014</h2>
-  <iframe width='560' height='315' src="https://www.youtube.com/embed/videoseries?list=PLRvXbUtKWLiALD9MftfecWep04SjsNhS9" frameborder="0" allowfullscreen></iframe>
+  {% for collection in site.collections %}
+  {% capture label %}{{ collection[0] }}{% endcapture %}
+  <div class="event">
+    <h2>{{ site.collections.[label].title }}</h2>
+
+    {% if site.collections.[label].abstract %}
+      <p>{{ site.collections.[label].abstract | markdownify }}</p>
+    {% endif %}
+
+    {% if site.collections.[label].youtube-playlist %}
+      <div class="youtube-embed">
+        <iframe src="https://www.youtube.com/embed/videoseries?list={{ site.collections.[label].youtube-playlist }}"
+          frameborder="0" allowfullscreen></iframe>
+        </div>
+    {% endif %}
+
+  </div>
+  {% endfor %}
+  
 </main>
