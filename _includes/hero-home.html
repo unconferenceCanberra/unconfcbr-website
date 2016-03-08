@@ -7,11 +7,16 @@
 			<h2>[{{ site.tagline }}]</h2>
       {{ site.hero | markdownify }}
 			{% if site.event-date %}
-				<span class="date">{{ site.event-date }}</span>
+				<span class="date"><i class="fa fa-calendar"></i>&ensp;
+					{{ site.event-date }}
+				</span>
 			{% endif %}
 			{% if site.event-date %}
 				<br>
-				<span class="time">{{ site.event-time }}</span>
+				<span class="time">
+					<i class="fa fa-clock-o"></i>&ensp;
+					{{ site.event-time }}
+				</span>
 			{% endif %}
 		</div>
 	</div>

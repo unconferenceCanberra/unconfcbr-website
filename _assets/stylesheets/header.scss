@@ -91,9 +91,15 @@ div.homepage-hero {
       }
 
       span.date, span.time {
+        margin-left: -2em;
         color: $hero-color;
         font-size: 1.25em;
         font-family: $fontface-sans;
+
+        i.fa {
+          font-size: 0.8em;
+          color: $light-gray;
+        }
       }
     }
   }
