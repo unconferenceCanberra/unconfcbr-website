@@ -24,9 +24,9 @@ People worldwide were free to copy the name and conference model, giving rise to
 
 Given the name change is primarily concerned with avoiding confusion, thematically not much has changed: the 'unconference' origins of the con aren't going anywhere --- in fact we renamed the conference to emphasise the participatory style BarCamp is so well known for.
 
-As ‘unorganisers’ we provide a venue and a few other logistical necessities, but the *content* of the con is entirely organised on the day, and conducted by you --- the participants.
+<acronym title="Call for Papers">CFP</acronym>? As ‘unorganisers’ we provide a venue and a few other logistical necessities, but the *content* of the con is entirely organised on the day, and conducted by you --- the participants.
 
-Topics? Besides wanting to pay homage to our roots (an open, accessible Internet, by and for its users and creators), we encourage you to present what you're passionate about.
+**Topics?** Besides wanting to pay homage to our roots (an open, accessible Internet, by and for its users and creators), we encourage you to present what you're passionate about.
 
 ## Event details
 
