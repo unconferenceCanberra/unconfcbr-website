@@ -19,6 +19,15 @@ main {
     @include shift(1);
     margin-bottom: 2em;
   }
+
+  article {
+
+    p:first-of-type {
+      font-family: $fontface-serif;
+      margin-bottom: 2em;
+      color: $medium-gray;
+    }
+  }
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -27,6 +36,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h2 {
+  font-size: 1.6em;
+  margin-top: 1em;
   font-family: $fontface-sans;
   color: $red;
 }

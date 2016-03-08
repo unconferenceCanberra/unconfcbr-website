@@ -2,7 +2,7 @@
 layout: home
 ---
 
-Welcome to the *Un:Conference Canberra*, brought to you by some of the previous BarCampCanberra unorganisers, as well as fresh blood entirely. Woo!
+Welcome to the *un:Conference Canberra*, brought to you by some of the previous BarCampCanberra unorganisers, as well as fresh blood entirely. Woo!
 
 ## It's all in a name
 
@@ -18,7 +18,7 @@ People worldwide were free to copy the name and conference model, giving rise to
 
 - **What?!** -- you want to hold a *booze conference* at a public library!?
 - Will people be sleeping over...?
-- So you can assure us there won't be any piss-up on premises, right?
+- So you can assure us there won't be a piss-up on premises, right?
 
 ## So what is the diff?
 
@@ -30,6 +30,6 @@ Given the name change is primarily concerned with avoiding confusion, thematical
 
 ## Event details
 
-The first Un:Con Canberra will be run at <acronym title="Canberra Innovation Network">CBRIN</acronym>, Level 5, 1 Moore St, Civic, Canberra, spanning from 09:00 to 16:00.
+The first un:Con Canberra will be run at <acronym title="Canberra Innovation Network">CBRIN</acronym>, Level 5, 1 Moore St, Civic, Canberra, spanning from 09:00 to 16:00.
 
 To come please register on the [EventBrite page](https://www.eventbrite.com.au/e/unconference-canberra-2016-registration-22076928688).

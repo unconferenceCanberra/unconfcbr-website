@@ -3,19 +3,7 @@ main#home {
 
   article {
 
-    p:first-child {
-      font-family: $fontface-serif;
-      margin-bottom: 2em;
-      color: $medium-gray;
-    }
-
     // targets first line of opening para, e.g. for small-caps
     article p:first-child:first-line { }
-
-    h2 {
-      font-size: 1.5em;
-      font-weight: bold;
-      margin-top: 1em;
-    }
   }
 }
