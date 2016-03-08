@@ -1,14 +1,4 @@
 main#session-list {
-  margin-bottom: 4em;
-
-  @include media($large-screen) {
-    @include span-columns(8);
-    @include shift(2);
-  }
-  @include media($medium-screen) {
-    @include span-columns(10);
-    @include shift(1);
-  }
 
   div.page-introduction {
     font-family: $fontface-serif;
@@ -28,7 +18,7 @@ main#session-list {
 
       iframe {
         padding: 6px;
-        background-color: #ddd;
+        background-color: $light-gray;
         position: absolute;
         top: 0;
         left: 0;

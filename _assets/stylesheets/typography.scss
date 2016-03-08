@@ -3,7 +3,55 @@ body {
   font-family: $fontface-sans;
 }
 
+main {
+  margin-bottom: 3em;
+
+  @include media($large-screen) {
+    @include span-columns(6);
+    @include shift(3);
+  }
+  @include media($medium-screen) {
+    @include span-columns(8);
+    @include shift(2);
+  }
+  @include media($tiny-screen) {
+    @include span-columns(10);
+    @include shift(1);
+    margin-bottom: 2em;
+  }
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: $fontface-serif;
   margin-bottom: 0.5em;
+}
+
+h2 {
+  font-family: $fontface-sans;
+  color: $red;
+}
+
+blockquote {
+  font-family: $fontface-serif;
+  font-size: 0.7em;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  line-height: 1.6;
+}
+
+ul, ol {
+  margin-bottom: 0.8em;
+
+  li {
+    list-style-type: circle;
+  }
+}
+
+acronym {
+  font-size: 1.3em;
+  text-transform: lowercase;
+  font-variant: small-caps;
+  letter-spacing: 1px;
+  padding-bottom: 1px;
+  border-bottom: 1px dotted $light-gray;
 }

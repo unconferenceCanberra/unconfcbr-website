@@ -10,7 +10,9 @@ $medium-screen: em(769) !default;
 $tiny-screen: em(320);
 
 $dark-gray: #333 !default;
-$light-gray: #d8d8d8;
+$medium-gray: lighten($dark-gray, 25%);
+$light-gray: #ddd !default;
+$red: #cc0000;
 
 $em-base: 16px;
 $fontface-sans: "Source Sans Pro", "DejaVu Sans", sans-serif;
@@ -19,8 +21,6 @@ $fontface-monospace: "Source Code Pro", "DejaVu Sans Mono", monospace;
 $fontface-print: Georgia, Times, "Times New Roman", serif;
 $base-background-color: white !default;
 $base-font-color: $dark-gray !default;
-
-$light-gray: #DDD !default;
 
 $base-border-color: #ccc;
 $base-border-radius: 3px !default;
@@ -44,6 +44,7 @@ main, section {
 @import "footer";
 @import "mailchimp-signup";
 @import "map";
+@import "home";
 @import "sessions";
 
 // temp styling for footer nav items that have missing pages/views

@@ -1,14 +1,11 @@
 div#mailchimp-signup {
   margin-top: 3em;
-  margin-bottom: 5em;
+  margin-bottom: 3em;
 
-  @include media($large-screen) {
-    @include span-columns(6);
-    @include shift(3);
-  }
   @include media($medium-screen) {
     @include span-columns(6);
     @include shift(3);
+  }
 
   @include media($tiny-screen) {
     padding: 0 8px;
@@ -19,10 +16,12 @@ div#mailchimp-signup {
     clear: left;
     width: 100%;
 
-    label, label, select {
+    label, select, input {
       font-family: $fontface-sans;
-      font-size: 1.7em;
     }
+
+    label, select { font-size: 1.6em; }
+    input { font-size: 1.1em; }
 
     p {
       font-size: 0.9em;
