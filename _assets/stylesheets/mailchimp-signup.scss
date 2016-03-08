@@ -1,5 +1,14 @@
 div#mailchimp-signup {
   margin-top: 3em;
+  margin-bottom: 5em;
+
+  @include media($large-screen) {
+    @include span-columns(6);
+    @include shift(3);
+  }
+  @include media($medium-screen) {
+    @include span-columns(6);
+    @include shift(3);
 
   @include media($tiny-screen) {
     padding: 0 8px;
@@ -8,10 +17,18 @@ div#mailchimp-signup {
   #mc_embed_signup {
     background: #fff;
     clear: left;
-    font-size: 14px;
-    font-family: $fontface-sans;
     width: 100%;
 
-    label { font-size: 1.5em;} 
+    label, label, select {
+      font-family: $fontface-sans;
+      font-size: 1.7em;
+    }
+
+    p {
+      font-size: 0.9em;
+      font-family: $fontface-serif;
+      text-align: center;
+      margin-top: 2em;
+    }
   }
 }
