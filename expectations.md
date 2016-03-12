@@ -4,7 +4,7 @@ permalink: /expectations/
 title: "What to expect?"
 ---
 
-This page provides some more background information on what to specifically expect on the day. We encourage everyone to have a quick read.
+Here you'll find background information on what to expect *on the day*. We encourage everyone to have a quick read!
 
 ![a picture of a younger presenter](/images/a-presenter.jpg)
 
@@ -36,7 +36,7 @@ Please also consider the [Code of Conduct](/conduct).
 
 ## Event details
 
-un:Con Canberra will be run at <acronym title="Canberra Innovation Network">CBRIN</acronym>, Level 5, 1 Moore St, Civic, Canberra, spanning from 09:00 to 16:00.
+The first un:Con Canberra will be run at <acronym title="Canberra Innovation Network">CBRIN</acronym>, Level 5, 1 Moore St, Civic, spanning from 09:00 to 16:00 on Saturday, 9 April 2016.
 
 Please <acronym>RSVP</acronym> via [EventBrite](https://www.eventbrite.com.au/e/unconference-canberra-2016-registration-22076928688).
 
@@ -50,7 +50,7 @@ But why *BarCamp*? In short, a few years ago now a well-known web industry publi
 
 People worldwide were free to copy the name and conference model, giving rise to a range of odd, but entirely fair questions, including:
 
-- **What?!** -- you want to hold a *booze conference* at a public library!?
+- **What?!** --- you want to hold a *booze* conference at a public library!?
 - Will people be sleeping over...?
 - So you can assure us there won't be a piss-up on premises, right?
 

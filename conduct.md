@@ -24,7 +24,7 @@ A supplemental goal of this Code of Conduct is to increase open [source/culture/
 
 Communities mirror the societies in which they exist and positive action is essential to counteract the many forms of inequality and abuses of power that exist in society.
 
-If you see someone who is making an extra effort to ensure our community is welcoming, friendly, and encourages all participants to contribute to the fullest extent, commend them and/or let us know.
+If you see someone who is making an extra effort to ensure our community is welcoming, friendly, and who encourages all participants to contribute to the fullest extent, commend them and/or let us know.
 
 ## 3. Expected Behavior
 
