@@ -12,7 +12,7 @@ eventbrite: "https://www.eventbrite.com.au/e/unconference-canberra-2016-registra
 
 # Unorganisers list populates html head author meta tag and p in footer include
 # - consider moving this into _data?
-unorganisers: "klepas, maxious, gavintapp, etc."
+unorganisers: "klepas, maxious, gavintapp, ruthellision, alixthomler, amcsviatko, craigthomler, tobybellwood, victoriabeth"
 
 # Main contact email given for the site
 email: foo@bar.com

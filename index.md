@@ -2,11 +2,11 @@
 layout: home
 ---
 
-Formely `BarCampCanberra`, 2016 sees the return of a BarCamp-web-themed, participatory (un)conference.
+Welcome to the *un:Conference Canberra*, brought to you by some of the previous BarCampCanberra unorganisers, as well as fresh blood entirely.
 
 ## 411
 
-Welcome to the *un:Conference Canberra*, brought to you by some of the previous BarCampCanberra unorganisers, as well as fresh blood entirely.
+Formerly `BarCampCanberra`, 2016 sees the return of a BarCamp-web-themed, participatory (un)conference.
 
 As the unorganisers met early this year and after some initial chats, it was decided to mix things up for 2016: we're dropping the 'BarCamp' name.
 
