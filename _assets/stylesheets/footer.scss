@@ -53,6 +53,7 @@
       color: transparentize($footer-color, 0);
       background-color: lighten($footer-link-color-bg, 10%);
       border: 1px solid lighten($footer-link-color-bg, 10%);
+      text-shadow: 1px 1px 1px #fff;
     }
 
     i.fa {
