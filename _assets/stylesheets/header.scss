@@ -73,8 +73,8 @@ div.homepage-hero {
 
       p {
         color: $hero-color;
-        line-height: 1.7em;
-        margin: 2em auto 1em auto;
+        line-height: 2em;
+        margin: 2em auto 2em auto;
         font-family: $fontface-serif;
 
         @include media($large-screen) {
