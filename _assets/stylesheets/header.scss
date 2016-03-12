@@ -25,12 +25,12 @@ div.homepage-hero {
   padding-top: 1em;
   padding-bottom: 2em;
   border: 1px solid #333;
-  border-top-left-radius: $base-border-radius;
-  border-top-right-radius: $base-border-radius;
+  border-radius: $base-border-radius;
+  // border-top-right-radius: $base-border-radius;
 
   .hero-logo img {
-    height: 4.2em;
-    margin-bottom: 1em;
+    height: 4.6em;
+    margin-bottom: 0.5em;
   }
 
   .hero-inner {
