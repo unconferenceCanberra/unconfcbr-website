@@ -34,7 +34,6 @@
     color: $centered-navigation-color;
     display: block;
     float: right;
-    line-height: $centered-navigation-height;
     margin: 0;
     padding-right: $centered-navigation-submenu-padding;
     text-decoration: none;
@@ -299,9 +298,14 @@ nav#page-nav {
     list-style: none;
     padding-right: 1.4em;
 
+    @include media($tiny-screen) {
+      margin-bottom: 0.5em;
+    }
+
     @include media($large-screen) {
       display: inline;
       text-align: left;
+      margin-bottom: 0;
     }
   }
 
