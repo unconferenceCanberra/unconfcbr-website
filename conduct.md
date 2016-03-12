@@ -20,7 +20,7 @@ We invite all those who participate in un:Conference Canberra to help us create 
 
 ## 2. Open [Source/Culture/Tech] Citizenship
 
-A supplemental goal of this Code of Conduct is to increase open [source/culture/tech] citizenship by encouraging participants to recognize and strengthen the relationships between our actions and their effects on our community.
+A supplemental goal of this Code of Conduct is to increase open [source/culture/tech] citizenship by encouraging participants to recognise and strengthen the relationships between our actions and their effects on our community.
 
 Communities mirror the societies in which they exist and positive action is essential to counteract the many forms of inequality and abuses of power that exist in society.
 
@@ -30,7 +30,7 @@ If you see someone who is making an extra effort to ensure our community is welc
 
 The following behaviors are expected and requested of all community members:
 
-- Participate in an authentic and active way. In doing so, you contribute to the health and longevity of this community.
+- Please participate in an active and/or authentic way. In doing so, you contribute to the health and longevity of this community.
 - Exercise consideration and respect in your speech and actions.
 - Attempt collaboration before conflict.
 - Refrain from demeaning, discriminatory, or harassing behavior and speech.
@@ -48,7 +48,7 @@ The following behaviors are considered harassment and are unacceptable within ou
 - Personal insults, particularly those related to gender, sexual orientation, race, religion, or disability.
 - Inappropriate photography or recording.
 - Inappropriate physical contact. You should have someone’s consent before touching them.
-- Unwelcome sexual attention. This includes, sexualized comments or jokes; inappropriate touching, groping, and unwelcomed sexual advances.
+- Unwelcome sexual attention. This includes, sexualised comments or jokes; inappropriate touching, groping, and unwelcomed sexual advances.
 - Deliberate intimidation, stalking or following (online or in person).
 - Advocating for, or encouraging, any of the above behavior.
 - Sustained disruption of community events, including talks and presentations.
@@ -65,7 +65,7 @@ If a community member engages in unacceptable behavior, the community organisers
 
 If you are subject to or witness unacceptable behavior, or have any other concerns, please notify a community (un)organiser as soon as possible. You can also **<a href="mailto:{{ site.email }}">email us</a>**.
 
-Additionally, community organizers are available to help community members engage with local law enforcement or to otherwise help those experiencing unacceptable behavior feel safe. In the context of in-person events, organizers will also provide escorts as desired by the person experiencing distress.
+Additionally, community organisers are available to help community members engage with local law enforcement or to otherwise help those experiencing unacceptable behavior feel safe. In the context of in-person events, organisers will also provide escorts as desired by the person experiencing distress.
 
 ## 7. Addressing Grievances
 
