@@ -40,7 +40,7 @@
   li a {
     margin-left: -($base-spacing / 4);
     font-size: 1em;
-    color: $footer-link-color;
+    color: $base-accent-color;
     text-decoration: none;
     font-family: $fontface-serif;
     background-color: lighten($footer-link-color-bg, 100%);

@@ -64,7 +64,7 @@ div.homepage-hero {
         font-family: $fontface-sans;
         font-size: 1em;
         font-weight: normal;
-        color: $medium-gray;
+        color: lighten($medium-gray, 15%);
 
         @include media($large-screen) {
           font-size: 1.1em;
@@ -92,15 +92,24 @@ div.homepage-hero {
         }
       }
 
+      span.date {
+        font-family: $fontface-sans;
+        font-size: 1.2em;
+      }
+
+      span.time {
+        font-family: $fontface-monospace;
+        font-size: 1em;
+      }
+
       span.date, span.time {
         margin-left: -1em;
         color: $hero-color;
-        font-size: 1.25em;
-        font-family: $fontface-sans;
 
         i.fa {
+          vertical-align: middle;
           font-size: 0.8em;
-          color: $light-gray;
+          color: lighten($medium-gray, 20%);
         }
       }
     }
