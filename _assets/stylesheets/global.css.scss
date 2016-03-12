@@ -46,8 +46,3 @@ main, section {
 @import "map";
 @import "home";
 @import "sessions";
-
-// temp styling for footer nav items that have missing pages/views
-li a.missing {
-  text-decoration: line-through;
-}
