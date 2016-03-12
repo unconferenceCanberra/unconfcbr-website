@@ -4,7 +4,7 @@ permalink: /conduct/
 title: "Code of Conduct"
 ---
 
-This is our community’s Code of Conduct. We encourage everyone to read it. If you have any questions, concerns, or suggestions we ask you to contact us.
+This is our community’s Code of Conduct. We encourage everyone to read it. If you have any questions, concerns, or suggestions we ask you to **<a href="mailto:{{ site.email }}">contact us</a>**.
 
 Our code has been adapted from the [*Citizen Code of Conduct*](http://citizencodeofconduct.org/).
 
@@ -12,7 +12,7 @@ Our code has been adapted from the [*Citizen Code of Conduct*](http://citizencod
 
 ## 1. Purpose
 
-**A primary goal of un:Conference Canberra is to be inclusive to the largest number of contributors, with the most varied and diverse backgrounds possible. As such, we are committed to providing a friendly, safe and welcoming environment for all, regardless of gender, sexual orientation, ability, ethnicity, socioeconomic status, and religion (or lack thereof).**
+A primary goal of un:Conference Canberra is to be inclusive to the largest number of contributors, with the most varied and diverse backgrounds possible. As such, we are committed to providing a friendly, safe and welcoming environment for all, regardless of gender, sexual orientation, ability, ethnicity, socioeconomic status, and religion (or lack thereof).
 
 This code of conduct outlines our expectations for all those who participate in our community, as well as the consequences for unacceptable behavior.
 
@@ -63,7 +63,7 @@ If a community member engages in unacceptable behavior, the community organisers
 
 ## 6. Reporting Guidelines
 
-If you are subject to or witness unacceptable behavior, or have any other concerns, please notify a community (un)organiser as soon as possible. You can also email us (see contact links).
+If you are subject to or witness unacceptable behavior, or have any other concerns, please notify a community (un)organiser as soon as possible. You can also **<a href="mailto:{{ site.email }}">email us</a>**.
 
 Additionally, community organizers are available to help community members engage with local law enforcement or to otherwise help those experiencing unacceptable behavior feel safe. In the context of in-person events, organizers will also provide escorts as desired by the person experiencing distress.
 
@@ -81,7 +81,7 @@ This code of conduct and its related procedures also applies to unacceptable beh
 
 ## 9. Contact info
 
-Please contact us via the contact email link at the top or bottom of the page.
+Outside of finding a community organiser in person, please **<a href="mailto:{{ site.email }}">contact us via email</a>**.
 
 ## 10. License and attribution
 
