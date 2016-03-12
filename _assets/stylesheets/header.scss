@@ -105,11 +105,13 @@ div.homepage-hero {
       span.date, span.time {
         margin-left: -1em;
         color: $hero-color;
+        display: block;
+        padding: 0;
 
         i.fa {
           vertical-align: middle;
-          font-size: 0.8em;
-          color: lighten($medium-gray, 20%);
+          font-size: 1em;
+          color: lighten($medium-gray, 24%);
         }
       }
     }
