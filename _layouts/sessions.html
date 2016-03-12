@@ -12,23 +12,25 @@ layout: base
 
     {{ content }}
 
-    {% for collection in site.collections %}
-    {% capture label %}{{ collection[0] }}{% endcapture %}
-    <div class="event">
-      <h2>{{ site.collections.[label].title }}</h2>
+    <div class="events">
+      <h2>Recordings from the years</h2>
+      {% for collection in site.collections %}
+      {% capture label %}{{ collection[0] }}{% endcapture %}
+      <div class="event">
+        <h3>{{ site.collections.[label].title }}</h3>
 
-      {% if site.collections.[label].abstract %}
-        <p>{{ site.collections.[label].abstract | markdownify }}</p>
-      {% endif %}
+        {% if site.collections.[label].abstract %}
+          {{ site.collections.[label].abstract | markdownify }}
+        {% endif %}
 
-      {% if site.collections.[label].youtube-playlist %}
+        {% if site.collections.[label].youtube-playlist %}
         <div class="youtube-embed">
           <iframe src="https://www.youtube.com/embed/videoseries?list={{ site.collections.[label].youtube-playlist }}"
             frameborder="0" allowfullscreen></iframe>
         </div>
-      {% endif %}
-
+        {% endif %}
+      </div>
+      {% endfor %}
     </div>
-    {% endfor %}
   </article>
 </main>

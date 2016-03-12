@@ -29,6 +29,7 @@ main {
 
     p:first-of-type {
       font-family: $fontface-serif;
+      margin-top: 1em;
       margin-bottom: 2em;
       color: $medium-gray;
     }
@@ -47,19 +48,25 @@ main {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $fontface-serif;
+  line-height: 1;
+  margin-top: 1em;
   margin-bottom: 0.5em;
 }
 
+h1 {
+  margin-top: 0;
+}
+
 h2 {
+  margin-top: 1.5em;
   font-size: 1.6em;
-  margin-top: 1em;
   font-family: $fontface-sans;
   color: $red;
 }
 
 h3 {
-  margin-top: 1em;
-  font-size: 1.5em;
+  margin-top: 1.5em;
+  font-size: 1.3em;
   font-weight: bold;
   font-family: $fontface-sans;
 }
