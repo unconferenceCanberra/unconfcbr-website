@@ -18,15 +18,19 @@ Besides yourselves—
 
 **Topics?** We want to pay some homage to the con’s roots (an open, accessible Internet, by and for its users and creators), and otherwise as ever encourage you to present on what you're passionate about.
 
-Things we provide:
+**Things?** Well... whatever you need for your presentation (keep dangerous toys at home), your electronic devices, pen and paper, ...
+
+There are things that ***we* provide**:
 
 - water
 - fruit
 - a place to buy coffee from
-- scheduling gear: butchers paper, markers, sticky notes
+- the scheduling gear (butchers paper, markers, sticky notes)
 - toilets
-- break-out space
-- wifi
+- a break-out space
+- wifi and Internet
+
+**Do?** Present, mingle, talk, but also watch <span class="amp">&amp;</span> listen.
 
 Please also consider the [Code of Conduct](/conduct).
 
@@ -62,4 +66,4 @@ If you do take photos you are welcome to add them to [the BarCampCanberra flickr
 
 Talks may be recorded for posterity. If you really want your talk recorded, check what gear is in the room you are using.
 
-If you use a slide deck, you might like to share it on Slideshare or a similar service after the event. You should bring your slide deck on a USB drive or better yet, a laptop.
+If you use a slide deck, you might like to share it on Slideshare or a similar service after the event. You should bring your slide deck on a <acronym>USB</acronym> drive or better yet, a laptop.
