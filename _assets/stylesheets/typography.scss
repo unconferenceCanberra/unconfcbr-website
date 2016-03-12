@@ -28,6 +28,16 @@ main {
       margin-bottom: 2em;
       color: $medium-gray;
     }
+    a {
+      padding-bottom: 1px;
+      border-bottom: 1px solid #fff;
+
+      &:focus,
+      &:hover {
+        color: black;
+        border-bottom: 1px dotted darken($light-gray, 20%);
+      }
+    }
   }
 }
 

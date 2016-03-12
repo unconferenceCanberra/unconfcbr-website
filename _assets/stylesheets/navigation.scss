@@ -12,12 +12,12 @@
   $base-font-color: $dark-gray !default;
   $centered-navigation-padding: 1em;
   $centered-navigation-logo-height: 2em;
-  $centered-navigation-background: #E7F1EC;
-  $centered-navigation-color: transparentize($base-font-color, 0.3);
+  $centered-navigation-background: white;
+  $centered-navigation-color: lighten($light-gray, 10%);
   $centered-navigation-color-hover: $base-font-color;
-  $centered-navigation-height: 60px;
-  $centered-navigation-item-padding: 1em;
-  $centered-navigation-submenu-padding: 1em;
+  $centered-navigation-height: 90px;
+  $centered-navigation-item-padding: 3em;
+  $centered-navigation-submenu-padding: 2em;
   $centered-navigation-submenu-width: 12em;
   $centered-navigation-item-nudge: 2.2em;
   $horizontal-bar-mode: $large-screen;
@@ -69,11 +69,6 @@
     width: 100%;
     z-index: 99999;
 
-    a.home-icon {
-      font-size: 1.4em;
-      margin-right: 0.4em;
-    }
-
     &.show {
       display: block;
     }
@@ -97,21 +92,26 @@
     display: block;
     line-height: $centered-navigation-height;
     overflow: hidden;
-    padding-right: $centered-navigation-submenu-padding;
-    text-align: right;
+    text-align: center;
     width: 100%;
     z-index: 9999;
     padding-bottom: 2px;
 
     a {
-      color: $centered-navigation-color;
-      display: inline-block;
+      font-size: 1.4em;
+      font-weight: bold;
+      color: $base-accent-color;
       outline: none;
       text-decoration: none;
+      border: 1px solid $centered-navigation-background;
+      border-radius: 3px;
+      padding: 0.5em;
 
       &:focus,
       &:hover {
-        color: $centered-navigation-color-hover;
+        color: darken($base-accent-color, 20%);
+        background-color: lighten($base-accent-color, 42%);
+        border: 1px solid lighten($base-accent-color, 42%);
       }
     }
 
@@ -121,7 +121,7 @@
       line-height: $centered-navigation-height;
 
       a {
-        padding-right: $centered-navigation-item-padding;
+        margin-right: $centered-navigation-item-padding;
       }
     }
   }
@@ -133,12 +133,6 @@
     @include media($large-screen) {
       display: inline;
     }
-  }
-
-  .logo img {
-    margin-bottom: -$centered-navigation-logo-height / 3;
-    max-height: $centered-navigation-logo-height;
-    opacity: 0.6;
   }
 
   // Sub menus
@@ -263,12 +257,11 @@
 
 nav#page-nav {
   $base-spacing: 1.5em !default;
-  $action-color: #204a87 !default;
   $medium-screen: em(640) !default;
   $large-screen: em(860) !default;
-  $nav-background: desaturate(darken($action-color, 20%), 30%);
-  $nav-color: white;
-  $nav-link-color: transparentize($nav-color, 0.6);
+  $nav-background: lighten($light-gray, 10%);
+  $nav-color: $dark-gray;
+  $nav-link-color: transparentize($nav-color, 0.3);
 
   background: $nav-background;
   border: 1px solid $nav-background;
@@ -279,7 +272,7 @@ nav#page-nav {
 
   .nav-home-icon {
     font-size: 1.2em;
-    color: #ddd;
+    color: lighten($dark-gray, 20);
     margin-right: 1em;
     margin-bottom: 1em;
 
@@ -304,7 +297,7 @@ nav#page-nav {
 
   ul li {
     list-style: none;
-    padding-right: 1em;
+    padding-right: 1.4em;
 
     @include media($large-screen) {
       display: inline;
@@ -313,12 +306,16 @@ nav#page-nav {
   }
 
   ul li a {
+    font-size: 1.1em;
     color: $nav-link-color;
     text-decoration: none;
+    padding-bottom: 3px;
+    border-bottom: 1px solid $nav-background;
 
     &:focus,
     &:hover {
-      color: transparentize($nav-color, 0);
+      color: black;
+      border-bottom: 1px dotted darken($nav-background, 20%);
     }
   }
 
@@ -328,39 +325,7 @@ nav#page-nav {
     }
 
     li {
-      font-size: 0.8em;
-    }
-
-    ul.nav-social {
-      margin: 1em 0 0 0;
-
-      @include media($large-screen) {
-        float: right;
-        margin-top: 0;
-      }
-
-      li {
-        font-size: 1em;
-        float: left;
-        line-height: 0;
-        margin: 0;
-        padding-right: 0.7em;
-
-        &:last-child {
-          padding-right: 0;
-        }
-      }
-
-      img {
-        height: 1.6em;
-        opacity: 0.7;
-        padding: 1px;
-
-        &:focus,
-        &:hover {
-          opacity: 1;
-        }
-      }
+      font-size: 0.9em;
     }
   }
 }
