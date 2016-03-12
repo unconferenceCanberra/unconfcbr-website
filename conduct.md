@@ -8,6 +8,8 @@ This is our community’s Code of Conduct. We encourage everyone to read it. If 
 
 Our code has been adapted from the [*Citizen Code of Conduct*](http://citizencodeofconduct.org/).
 
+![a picture of colourful hand puppets](/images/muppets.jpg)
+
 ## 1. Purpose
 
 **A primary goal of un:Conference Canberra is to be inclusive to the largest number of contributors, with the most varied and diverse backgrounds possible. As such, we are committed to providing a friendly, safe and welcoming environment for all, regardless of gender, sexual orientation, ability, ethnicity, socioeconomic status, and religion (or lack thereof).**

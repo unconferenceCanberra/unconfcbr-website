@@ -23,6 +23,10 @@ main {
 
   article {
 
+    img {
+      max-width: 100%
+    }
+
     p:first-of-type {
       font-family: $fontface-serif;
       margin-bottom: 2em;

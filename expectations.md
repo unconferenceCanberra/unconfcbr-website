@@ -4,11 +4,13 @@ permalink: /expectations/
 title: "What to expect?"
 ---
 
-This might be your first *unconference*, or you might have many under your belt. This page provides some more background information on what to specifically expect on the day at un:Con Canberra. We encourage everyone to have a quick read.
+This page provides some more background information on what to specifically expect on the day. We encourage everyone to have a quick read.
+
+![a picture of a younger presenter](/images/a-presenter.jpg)
 
 ## Schedule?
 
-<acronym title="Call for Papers">CFP</acronym>? As ‘unorganisers’ we provide a venue and a few other logistical necessities, but the *content* of the con is entirely organised on the day, and conducted by you --- the participants.
+<acronym title="Call for Papers">CFP</acronym>? The con is an [*un*conference](https://en.wikipedia.org/wiki/Unconference). As ‘unorganisers’ we provide a venue and a few other logistical necessities, but the *content* of the con is entirely organised on the day, and conducted by you --- the participants.
 
 ## What to do and bring
 
