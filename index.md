@@ -16,6 +16,6 @@ For more info see [**_What to expect?_**](/expectations)
 
 ## Event details
 
-The first un:Con Canberra will be run at <acronym title="Canberra Innovation Network">CBRIN</acronym>, Level 5, 1 Moore St, Civic, spanning from 09:00 to 16:00 on Saturday, 9 April 2016.
+The first un:Con Canberra will be run at <abbr title="Canberra Innovation Network">CBRIN</abbr>, Level 5, 1 Moore St, Civic, spanning from 09:00 to 16:00 on Saturday, 9 April 2016.
 
 To come please register on the [**EventBrite page**](https://www.eventbrite.com.au/e/unconference-canberra-2016-registration-22076928688).

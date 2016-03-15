@@ -4,7 +4,7 @@ permalink: /accessibility/
 title: "Accessibility information"
 ---
 
-This website has been designed to meet the <acronym title="Web Content Accessibility Guidelines">WCAG</acronym> 2.0 standard.
+This website has been designed to meet the <abbr title="Web Content Accessibility Guidelines">WCAG</abbr> 2.0 standard.
 
 We intend to offer text-alternatives where possible (no promises regarding recordings), and strive to keep the technical scaffolding of the website Level AA compliant.
 

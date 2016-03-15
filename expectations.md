@@ -10,7 +10,7 @@ Here you'll find background information on what to expect *on the day*. We encou
 
 ## Schedule?
 
-<acronym title="Call for Papers">CFP</acronym>? The con is an [*un*conference](https://en.wikipedia.org/wiki/Unconference). As ‘unorganisers’ we provide a venue and a few other logistical necessities, but the *content* of the con is entirely organised on the day, and conducted by you --- the participants.
+<abbr title="Call for Papers">CFP</abbr>? The con is an [*un*conference](https://en.wikipedia.org/wiki/Unconference). As ‘unorganisers’ we provide a venue and a few other logistical necessities, but the *content* of the con is entirely organised on the day, and conducted by you --- the participants.
 
 ## What to do and bring
 
@@ -36,9 +36,9 @@ Please also consider the [Code of Conduct](/conduct).
 
 ## Event details
 
-The first un:Con Canberra will be run at <acronym title="Canberra Innovation Network">CBRIN</acronym>, Level 5, 1 Moore St, Civic, spanning from 09:00 to 16:00 on Saturday, 9 April 2016.
+The first un:Con Canberra will be run at <abbr title="Canberra Innovation Network">CBRIN</abbr>, Level 5, 1 Moore St, Civic, spanning from 09:00 to 16:00 on Saturday, 9 April 2016.
 
-Please <acronym>RSVP</acronym> via [EventBrite](https://www.eventbrite.com.au/e/unconference-canberra-2016-registration-22076928688).
+Please <abbr>RSVP</abbr> via [EventBrite](https://www.eventbrite.com.au/e/unconference-canberra-2016-registration-22076928688).
 
 ### History
 
@@ -66,4 +66,4 @@ If you do take photos you are welcome to add them to [the BarCampCanberra flickr
 
 Talks may be recorded for posterity. If you really want your talk recorded, check what gear is in the room you are using.
 
-If you use a slide deck, you might like to share it on Slideshare or a similar service after the event. You should bring your slide deck on a <acronym>USB</acronym> drive or better yet, a laptop.
+If you use a slide deck, you might like to share it on Slideshare or a similar service after the event. You should bring your slide deck on a <abbr>USB</abbr> drive or better yet, a laptop.

@@ -24,7 +24,7 @@ $base-font-color: $dark-gray !default;
 
 $base-border-color: #ccc;
 $base-border-radius: 3px !default;
-$base-accent-color: #477DCA !default;
+$base-accent-color: darken(#477DCA, 8%);
 
 body {
   @include outer-container;
