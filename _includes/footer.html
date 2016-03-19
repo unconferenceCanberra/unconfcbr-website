@@ -33,6 +33,8 @@
       {% if unorganiser.site %}
       <span class="people"><a href="{{ unorganiser.site }}">@{{ unorganiser.handle }}</span></a>&emsp;
       {% else %}
+      <span class="people"><a href="https://twitter.com/{{ unorganiser.twitter }}">@{{ unorganiser.handle }}</span></a>&emsp;
+      {% else %}
       <span class="people">@{{ unorganiser.handle }}</span>&emsp;
       {% endif %}
     {% endfor %}
