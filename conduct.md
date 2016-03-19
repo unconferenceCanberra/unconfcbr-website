@@ -10,6 +10,8 @@ Our code has been adapted from the [*Citizen Code of Conduct*](http://citizencod
 
 ![a picture of colourful hand puppets](/images/muppets.jpg)
 
+[Photo by Sharon, CC-licensed](https://www.flickr.com/photos/share_s/6991691981/in/pool-barcampcanberra/).
+
 ## 1. Purpose
 
 A primary goal of un:Conference Canberra is to be inclusive to the largest number of contributors, with the most varied and diverse backgrounds possible. As such, we are committed to providing a friendly, safe and welcoming environment for all, regardless of gender, sexual orientation, ability, ethnicity, socioeconomic status, and religion (or lack thereof).

@@ -35,7 +35,7 @@ A range of information is stored separately inside metadata `.yml` files. You ca
 - Details about unorganisers, the site email contact address, and event details are stored in metadata files in `_data/`.
 - Uses *Merriweather* and *Source Sans Pro* from Google Web Fonts, and Font-Awesome for icons.
 - Uses the [jekyll-assets](https://jekyll.github.io/jekyll-assets/) plugin for an asset pipeline.
-- Uses the [bourbon.io](http://bourbon.io/) SASS mixin library and it’s grid framework [neat.bourbon.io](http://neat.bourbon.io/)
+- Uses the [bourbon.io](http://bourbon.io/) SASS mixin library and it’s grid framework [neat.bourbon.io](http://neat.bourbon.io/).
 
 ## License
 

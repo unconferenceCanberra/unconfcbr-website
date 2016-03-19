@@ -8,6 +8,8 @@ Here you'll find background information on what to expect *on the day*. We encou
 
 ![a picture of a younger presenter](/images/a-presenter.jpg)
 
+[Photo by Gavin Tapp, CC-licensed](https://www.flickr.com/photos/92795775@N00/13166117884/in/pool-barcampcanberra/).
+
 ## Schedule?
 
 <abbr title="Call for Papers">CFP</abbr>? The con is an [*un*conference](https://en.wikipedia.org/wiki/Unconference). As ‘unorganisers’ we provide a venue and a few other logistical necessities, but the *content* of the con is entirely organised on the day, and conducted by you --- the participants.
