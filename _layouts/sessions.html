@@ -14,7 +14,7 @@ layout: base
 
     <div class="events">
       <h2>Recordings from the years</h2>
-      {% for event_hash in site.data.events %}
+      {% for event_hash in site.data.events | sort %}
 			{% assign event = event_hash[1] %}
       <div class="event">
         <h3>{{ event.title }}</h3>

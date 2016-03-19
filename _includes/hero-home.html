@@ -3,7 +3,7 @@
     <a href="" class="hero-logo"><img src="/images/logo.png" alt="Logo Image"></a>
 		<div class="hero-copy">
 
-			{% for event_hash in site.data.events %}
+			{% for event_hash in site.data.events | sort %}
 				{% if forloop.last %}
 				{% assign event = event_hash[1] %}
 

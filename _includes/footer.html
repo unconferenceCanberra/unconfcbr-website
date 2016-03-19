@@ -4,7 +4,7 @@
     <ul>
       <li><h3>Primary</h3></li>
       <li><a href="/expectations">What to expect?</a></li>
-      {% for event_hash in site.data.events %}
+      {% for event_hash in site.data.events | sort %}
         {% if forloop.last %}
         {% assign event = event_hash[1] %}
       <li><a class="participate" href="{{ event.eventbrite }}">
