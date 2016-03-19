@@ -10,7 +10,7 @@ A static-site generator takes plaintext content, layouts, and stylesheets, parse
 
 So, in other words: if you push a change to this repository it will take your edits, rebuild the files that comprise the site, and (re)deploy it to the live web server.
 
-## Editing -- getting started
+## Editing --- getting started
 
 All you need in order to edit the website is a GitHub account, associated with contributor rights to this repository. (Ask klepas or maxious if you need rights.)
 

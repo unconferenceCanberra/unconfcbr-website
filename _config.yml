@@ -1,14 +1,5 @@
 # These are mostly referenced in head.html
 title: "un:Conference Canberra"
-tagline: "formerly BarCampCanberra"
-hero: >
-  A Canberra-born **open web** 'unconference': a con for the *users and
-  creators* of an open Internet whose schedule and sessions are filled,
-  on the day, by its participants
-
-event-date: "Saturday, 9 April 2016"
-event-time: "09:30–16:00"
-eventbrite: "https://www.eventbrite.com.au/e/unconference-canberra-2016-registration-22076928688"
 
 # The rest here are Jekyll-specific configs:
 baseurl: "" # the subpath of your site, e.g. /blog/
