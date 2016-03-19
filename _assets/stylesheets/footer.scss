@@ -81,15 +81,25 @@
     margin: 0 auto 1em auto;
     max-width: 35em;
     text-align: center;
-  }
 
-  p.unorganisers {
-    span.people {
-      font-family: $fontface-monospace;
+    &.unorganisers {
+      span.people {
+        font-family: $fontface-monospace;
+      }
     }
-  }
 
-  p.copy {
-    font-family: $fontface-sans;
+    &.copy {
+      margin-top: 2em;
+      font-family: $fontface-serif;
+    }
+
+    &.updated {
+      font-size: 0.8em;
+
+      span.build-time {
+        font-size: 0.9em;
+        font-family: $fontface-monospace;
+      }
+    }
   }
 }
