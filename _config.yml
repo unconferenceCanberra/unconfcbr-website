@@ -10,14 +10,6 @@ event-date: "Saturday, 9 April 2016"
 event-time: "09:30–16:00"
 eventbrite: "https://www.eventbrite.com.au/e/unconference-canberra-2016-registration-22076928688"
 
-# Main contact email given for the site
-email: foo@bar.com
-
-# Social media info, linked in the footer
-youtube: barcampcanberra
-twitter: UnconferenceCBR
-facebook: UnConferenceCanberra
-
 # The rest here are Jekyll-specific configs:
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: ""
