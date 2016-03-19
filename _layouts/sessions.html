@@ -14,18 +14,26 @@ layout: base
 
     <div class="events">
       <h2>Recordings from the years</h2>
-      {% for collection in site.collections %}
-      {% capture label %}{{ collection[0] }}{% endcapture %}
+      {% for event_hash in site.data.events %}
+			{% assign event = event_hash[1] %}
       <div class="event">
-        <h3>{{ site.collections.[label].title }}</h3>
+        <h3>{{ event.title }}</h3>
 
-        {% if site.collections.[label].abstract %}
-          {{ site.collections.[label].abstract | markdownify }}
+        {% if event.abstract %}
+        {{ event.abstract | markdownify }}
         {% endif %}
 
-        {% if site.collections.[label].youtube-playlist %}
+        {% if event.date %}
+        <p>Date: {{ event.date }}.</p>
+        {% endif %}
+
+        {% if event.hashtag %}
+        <p>Event hashtag: <code>#{{ event.hashtag }}</code>.</p>
+        {% endif %}
+
+        {% if event.youtube-playlist %}
         <div class="youtube-embed">
-          <iframe src="https://www.youtube.com/embed/videoseries?list={{ site.collections.[label].youtube-playlist }}"
+          <iframe src="https://www.youtube.com/embed/videoseries?list={{ event.youtube-playlist }}"
             frameborder="0" allowfullscreen></iframe>
         </div>
         {% endif %}
