@@ -6,7 +6,7 @@ Welcome to the *un:Conference Canberra*, brought to you by some of the previous 
 
 ## 411
 
-Formerly ‘BarCampCanberra’, 2016 sees the return of a barcamp-web-themed, participatory (un)conference.
+Formerly ‘BarCampCanberra’, 2016 sees the return of a open-web, barcamp-web-themed, participatory (un)conference. ([‘BarCamp’? ‘unconference’? … huh?](http://0.0.0.0:4000/expectations/#history))
 
 The unorganisers met early this year and after some initial chats, it was decided to mix things up for 2016: we're dropping the 'BarCamp' name.
 

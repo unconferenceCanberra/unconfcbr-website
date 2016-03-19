@@ -2,21 +2,33 @@
 	<div class="hero-inner">
     <a href="" class="hero-logo"><img src="/images/logo.png" alt="Logo Image"></a>
 		<div class="hero-copy">
-			<h1>{{ site.title }}</h1>
-			<h2>[{{ site.tagline }}]</h2>
-      {{ site.hero | markdownify }}
-			{% if site.event-date %}
-				<span class="date"><i class="fa fa-calendar"></i>&ensp;
-					{{ site.event-date }}
-				</span>
+
+			{% for event_hash in site.data.events %}
+				{% if forloop.last %}
+				{% assign event = event_hash[1] %}
+
+			<h1>{{ event.title }}</h1>
+			<h2>[{{ event.tagline }}]</h2>
+
+			{{ event.abstract | markdownify }}
+
+				{% if event.date %}
+			<span class="date"><i class="fa fa-calendar"></i>&ensp;
+				{{ event.date }}
+			</span>
+				{% endif %}
+
+				{% if event.time %}
+			<br>
+			<span class="time">
+				<i class="fa fa-clock-o"></i>&ensp;
+					{{ event.time }}
+			</span>
+				{% endif %}
+
 			{% endif %}
-			{% if site.event-date %}
-				<br>
-				<span class="time">
-					<i class="fa fa-clock-o"></i>&ensp;
-					{{ site.event-time }}
-				</span>
-			{% endif %}
+		{% endfor %}
+
 		</div>
 	</div>
 </div>

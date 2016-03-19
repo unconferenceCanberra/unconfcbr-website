@@ -4,10 +4,13 @@
   </a>
   <ul>
     <li><a href="/expectations">What to expect?</a></li>
-    {% if site.eventbrite %}
-    <li><a class="participate" href="{{ site.eventbrite }}">
+    {% for event_hash in site.data.events %}
+      {% if forloop.last %}
+      {% assign event = event_hash[1] %}
+    <li><a class="participate" href="{{ event.eventbrite }}">
       Participate&ensp;<i class="fa fa-external-link"></i></a></li>
-    {% endif %}
+      {% endif %}
+    {% endfor %}
     <li><a href="/sessions">Past Sessions</a></li>
   </ul>
   <div class="nav-secondary-links">
