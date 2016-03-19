@@ -10,10 +10,6 @@ event-date: "Saturday, 9 April 2016"
 event-time: "09:30–16:00"
 eventbrite: "https://www.eventbrite.com.au/e/unconference-canberra-2016-registration-22076928688"
 
-# Unorganisers list populates html head author meta tag and p in footer include
-# - consider moving this into _data?
-unorganisers: "@klepas, @maxious, @gavintapp, @ruthellision, @alixthomler, @amcsviatko, @craigthomler, @tobybellwood, @victoriabeth"
-
 # Main contact email given for the site
 email: foo@bar.com
 
@@ -29,7 +25,7 @@ url: ""
 markdown: kramdown # the preferred markdown processor
 
 # things that should be excluded from a jekyll build
-exclude: [README.md, Rakefile, .gitignore, Gemfile, Gemfile.lock, vendor]
+exclude: [README.md, LICENSE.md, Rakefile, .gitignore, Gemfile, Gemfile.lock, vendor]
 
 # post permalink URL structure
 permalink: /:title

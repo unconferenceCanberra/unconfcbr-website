@@ -25,7 +25,15 @@
     </ul>
   </div>
 
-  <p class="unorganisers">Brought to you by: <span class="people">{{ site.unorganisers }}</span></p>
+  <p class="unorganisers">Brought to you by:&emsp;
+    {% for unorganiser in site.data.unorganisers %}
+      {% if unorganiser.site %}
+      <span class="people"><a href="{{ unorganiser.site }}">@{{ unorganiser.handle }}</span></a>&emsp;
+      {% else %}
+      <span class="people">@{{ unorganiser.handle }}</span>&emsp;
+      {% endif %}
+    {% endfor %}
+  </p>
 
   <p class="copy">&copy; Respective authors 2008&ndash;</p>
 </footer>
