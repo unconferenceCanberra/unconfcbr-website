@@ -4,7 +4,7 @@
 		<div class="hero-copy">
 
 			{% for event_hash in site.data.events | sort %}
-				{% if forloop.last %}
+				{% if forloop.first %}
 				{% assign event = event_hash[1] %}
 
 			<h1>{{ event.title }}</h1>

@@ -4,7 +4,7 @@
       <ul id="js-centered-navigation-menu" class="centered-navigation-menu show">
         <li class="nav-link"><a href="/expectations">What to expect?</a></li>
         {% for event_hash in site.data.events | sort %}
-          {% if forloop.last %}
+          {% if forloop.first %}
           {% assign event = event_hash[1] %}
         <li class="nav-link"><a class="participate" href="{{ event.eventbrite }}">
           Participate&ensp;<i class="fa fa-external-link"></i></a></li>

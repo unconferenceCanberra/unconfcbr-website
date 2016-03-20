@@ -9,3 +9,6 @@ date: "Saturday, 9 April 2016"
 time: "09:30–16:00"
 eventbrite: "https://www.eventbrite.com.au/e/unconference-canberra-2016-registration-22076928688"
 youtube-playlist:
+
+# The `youtube-playlist` is the playlist ID we want to embed, e.g., see:
+# https://www.youtube.com/playlist?list=PLRvXbUtKWLiALD9MftfecWep04SjsNhS9

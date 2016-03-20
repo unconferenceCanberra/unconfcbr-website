@@ -8,51 +8,9 @@ url: ""
 markdown: kramdown # the preferred markdown processor
 
 # things that should be excluded from a jekyll build
-exclude: [README.md, LICENSE.md, Rakefile, .gitignore, Gemfile, Gemfile.lock, vendor]
+exclude: [README.md, LICENSE.md, Rakefile, .gitignore, Gemfile, Gemfile.lock, vendor, .asset-cache]
 
 # post permalink URL structure
 permalink: /:title
 
 #paginate: 10
-
-# Collections
-# Here we are going to define some Jekyll `Collections`.
-# The feature is not fully stable, but mostly in order.
-# Documentation is at:
-# https://jekyllrb.com/docs/collections/
-
-# This feature is used to generate the index of sessions for each year.
-# The variables should be fairyl self-evident...
-# The `youtube-playlist` is the playlist ID we want to embed, e.g., see:
-# https://www.youtube.com/playlist?list=PLRvXbUtKWLiALD9MftfecWep04SjsNhS9
-
-collections:
-  barcampcbr2014:
-    output: false
-    permalink: /2014/
-    title: "BarCampCanberra 2014"
-    abstract: "Held at Gungahlin Library on 15 March. The hashtag was `#bcc2014`."
-    youtube-playlist: "PLRvXbUtKWLiALD9MftfecWep04SjsNhS9"
-  barcampcbr2013:
-    output: false
-    permalink: /2013/
-    title: "BarCampCanberra 2013"
-    abstract: "Held at Inspire Centre, University of Canberra on 16 March. The hashtag was `#bcc2013`."
-    youtube-playlist: "PLRvXbUtKWLiBg-SUBFivbt49vKlIl5xip"
-  barcampcbr2012:
-    output: false
-    permalink: /2012/
-    title: "BarCampCanberra 2012"
-    abstract: "Held at College of Business and Economics at the Australian National University on 17 March. Only one short video was recorded. The hashtag was `#bcc2012`."
-    youtube-playlist: "PLRvXbUtKWLiB7aagR5kMs0Smu79Pf4lb7"
-  barcampcbr2011:
-    output: false
-    permalink: /2011/
-    title: "BarCampCanberra 2011"
-    abstract: "The third Canberra BarCamp was held at the College of Business and Economics at the Australian National University on 19 March. The hashtag was `#bcc2011`."
-    youtube-playlist: "PLRvXbUtKWLiAMxGm7RmcoaBbuulEuG9cN"
-  barcampcbr2008:
-    output: false
-    permalink: /2008/
-    title: "BarCampCanberra 2008"
-    abstract: "The inaugural Canberra BarCamp, held on 19 April at the CSIT Building at the Australian National University. No sessions were officially recorded."
