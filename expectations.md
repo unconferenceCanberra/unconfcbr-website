@@ -26,7 +26,7 @@ There are things that ***we* provide**:
 
 - water
 - fruit
-- a place to buy coffee from
+- coffee
 - the scheduling gear (butchers paper, markers, sticky notes)
 - toilets
 - a break-out space
@@ -34,7 +34,7 @@ There are things that ***we* provide**:
 
 **Do?** Present, mingle, talk, but also watch <span class="amp">&amp;</span> listen.
 
-Please also consider the [Code of Conduct](/conduct).
+Please consider our [Code of Conduct](/conduct).
 
 ## Event details
 
@@ -62,9 +62,9 @@ People worldwide were free to copy the name and conference model, giving rise to
 
 **Important:** The conference is a fairly photo-friendly event. It’s very likely that you will have your photo taken during the day; if you run a session, your photo will almost certainly be taken.
 
-If you *don’t* wish to have your photo taken that is no problem. Keep an eye out for cameras and just let the person with the camera know. If you see a photo of yourself posted online you can ask the photographer to take it down if you wish.
+If you *don’t* wish to have your photo taken that is no problem. If you're running a session let everyone know at the start, and otherwise keep an eye out for cameras and just let the person with the camera know. If you see a photo of yourself posted online you can ask the photographer to take it down if you wish.
 
-If you do take photos you are welcome to add them to [the BarCampCanberra flickr group](http://www.flickr.com/groups/barcampcanberra/).
+If you do take photos you are welcome to add them to [the BarCampCanberra flickr group]({{ site.data.links.flickr }}).
 
 Talks may be recorded for posterity. If you really want your talk recorded, check what gear is in the room you are using.
 
