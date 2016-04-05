@@ -1,0 +1,53 @@
+div#sponsors {
+  margin-bottom: 2em;
+
+  @include media($tiny-screen) {
+    padding: 0 8px;
+    @include span-columns(10);
+    @include shift(1);
+  }
+  @include media($medium-screen) {
+    @include span-columns(8);
+    @include shift(2);
+  }
+
+  h3 {
+    text-align: center;
+    font-size: 1.6em;
+    margin-bottom: 1em;
+  }
+
+  ul.sponsor-list {
+    text-align: center;
+    @include outer-container(100%);
+
+    li.sponsor {
+      list-style: none;
+      @include pad;
+
+      @include media($tiny-screen) {
+        img {
+          max-width: 300px;
+        }
+      }
+
+      @include media($medium-screen) {
+        @include span-columns(6);
+        @include omega(2n);
+
+        img {
+          max-width: 200px;
+        }
+      }
+
+      @include media($large-screen) {
+        @include span-columns(6);
+        @include omega(2n);
+
+        img {
+          max-width: 280px;
+        }
+      }
+    }
+  }
+}

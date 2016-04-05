@@ -114,8 +114,12 @@ DEPENDENCIES
   bitters
   bourbon
   font-awesome-sass
+  jekyll
   jekyll-assets
   neat
   refills
   sass
   uglifier
+
+BUNDLED WITH
+   1.11.2

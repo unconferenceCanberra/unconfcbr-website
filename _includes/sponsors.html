@@ -1,0 +1,15 @@
+<div id="sponsors">
+  <h3>This years&rsquo; sponsors</h3>
+  <ul class="sponsor-list">
+  {% for sponsor_hash in site.data.sponsors %}
+  {% assign sponsor = sponsor_hash[1] %}
+    <li class="sponsor">
+      <a href="{{ sponsor.url }}">
+        <img src="/images/sponsors/{{ sponsor.logo }}" alt="logo of {{ sponsor.name }}" />
+      </a>
+    </li>
+  {% unless forloop.last %}
+  {% endunless %}
+  {% endfor %}
+  </ul>
+</div>
