@@ -27,7 +27,7 @@ div#sponsors {
 
       @include media($tiny-screen) {
         img {
-          max-width: 300px;
+          max-height: 102px;
         }
       }
 
@@ -36,7 +36,7 @@ div#sponsors {
         @include omega(2n);
 
         img {
-          max-width: 200px;
+          max-height: 92px;
         }
       }
 
@@ -45,7 +45,7 @@ div#sponsors {
         @include omega(2n);
 
         img {
-          max-width: 280px;
+          max-height: 82px;
         }
       }
     }
